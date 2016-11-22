@@ -31,8 +31,8 @@ public class CarOwners {
             } else if (command.equals("EXIT")) {
                 break;
             } else if (command.equals("HELP")) {
-                System.out.println("Примеры ввода номеров:\n - с 1995 года: РР-ццц-ццББ\n - с 2004 года: ККццццББ, где:");
-                System.out.println("РР - код региона по образцу 1995 года;\nц - цифры;\nББ - серия;\nКК - код региона по образцу 2004 года.");
+                System.out.println("Примеры ввода номеров:\n - с 1995 года: РР-ццц-ццСС\n - с 2004 года: ККццццСС, где:");
+                System.out.println("РР - код региона по образцу 1995 года;\nц - цифры;\nСС - серия;\nКК - код региона по образцу 2004 года.");
                 System.out.println("Можно еще добавить номера 1992 года :)");
                 System.out.println();
             } else if (isCarNumber(command)) {
