@@ -1,4 +1,4 @@
-package com.company.Lesson1;
+package com.company.Lesson01;
 
 /*
 * распечатать текст: "Коле уже 18 лет, он ростом 1.8 метра"
